@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #682e95;
+}
+.container{
+    height: 500px;
+    width: 50%;
+    background: #3b1465;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+                -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.social-media .facebook-icon i{
+    color: #4b6ea9;
+    font-size: 50px;
+    text-align: center;
+    line-height: 90px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #753063;
+    border-radius: 50%;
+    position: relative;
+    left: -8px;
+    cursor: pointer;
+}
+.social-media label.login-fb{
+    position: relative;
+    float: left;
+    left: -10px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 80px;
+    cursor: text;
+}
+.social-media .twitter-icon i{
+    color: #65bbf2;
+    font-size: 50px;
+    text-align: center;
+    line-height: 90px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #753063;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    cursor: pointer;
+}
+.social-media label.login-twitter{
+    position: relative;
+    float: right;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 80px;
+    cursor: text;
+}
+
+.container .form{
+    position: absolute;
+    top: 5%;
+    transform: translate(60% , 65%);
+}
+.container .form input{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="email"], 
+input[type="password"]{
+    padding: 15px;
+    width: 120%;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border: 2px solid #742f63;
+    border-radius: 5px;
+    font-size: 20px;
+    outline-color: #65bbf2;
+}
+input::placeholder{
+    color: #ccc;
+}
+.container .form a{
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #af219c;
+    margin-bottom: 25px;
+}
+.container .form button.log{
+    padding: 15px;
+    width: 120%;
+    background: #14b266;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hr{
+    border: 1px solid yellow;
+    position: relative;
+    top: 60%;
+}
